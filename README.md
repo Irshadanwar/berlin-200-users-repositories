@@ -9,10 +9,8 @@
 I employed the GitHub REST API to gather user data from Berlin, filtering for those with over 200 followers. I collected their profiles and public repositories, cleaning the data for consistency. For company names, I ensured they were trimmed, stripped of leading @ symbols, and converted to uppercase. I captured a range of fields to provide a comprehensive view of the developers in Berlin.
 
 ### Most Interesting Findings
-One surprising finding was the increasing popularity of languages like Rust and Go among Berlin developers, indicating a shift towards more systems-oriented programming. This reflects the city's vibrant tech community's willingness to embrace emerging technologies.
+One surprising finding was the increasing popularity of languages among Berlin developers, indicating a shift towards more systems-oriented programming. This reflects the city's vibrant tech community's willingness to embrace emerging technologies.
 
-### Actionable Recommendation
-Developers should focus on creating detailed profiles and engaging in open-source projects. By showcasing their skills and collaborating with others, they can significantly enhance their follower count and visibility within the community.
 
 ### Dataset Summary
 The following CSV files are included in this repository:
