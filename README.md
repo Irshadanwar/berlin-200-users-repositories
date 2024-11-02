@@ -1,45 +1,57 @@
-## GitHub Berlin Users and Repositories: Unveiling Trends in Developer Engagement
+# GitHub Berlin Users and Repositories
 
 ### Overview
+- This project analyzes GitHub users in Berlin with over 200 followers to uncover trends in programming language popularity and community engagement.
+- It utilizes the GitHub API to scrape user profiles and their repositories, providing insights that can help developers enhance their visibility and engagement.
+- Key findings include patterns in language preferences, user engagement dynamics, and recommendations for optimizing GitHub profiles.
 
-In a deep dive into the vibrant tech scene of Berlin, we analyzed GitHub users with over 200 followers. Using the GitHub API, we gathered insights on user profiles and repositories, revealing intriguing patterns in programming language popularity and community engagement. Here’s what we discovered!
+### How the Data Was Scraped
+I employed the GitHub REST API to gather user data from Berlin, filtering for those with over 200 followers. I collected their profiles and public repositories, cleaning the data for consistency. For company names, I ensured they were trimmed, stripped of leading @ symbols, and converted to uppercase. I captured a range of fields to provide a comprehensive view of the developers in Berlin.
 
-### Methodology
+### Most Interesting Findings
+One surprising finding was the increasing popularity of languages like Rust and Go among Berlin developers, indicating a shift towards more systems-oriented programming. This reflects the city's vibrant tech community's willingness to embrace emerging technologies.
 
-Our research employed the GitHub REST API to scrape relevant data, focusing on users in Berlin who have garnered significant followership. We filtered the data by criteria such as location and follower count, then performed extensive cleaning on company names to ensure accuracy. Programming languages used in repositories were analyzed to spot trends and preferences among Berlin's developers.
+### Actionable Recommendation
+Developers should focus on creating detailed profiles and engaging in open-source projects. By showcasing their skills and collaborating with others, they can significantly enhance their follower count and visibility within the community.
 
-### Key Findings
+### Dataset Summary
+The following CSV files are included in this repository:
 
-1. **Language Popularity Shifts**: 
-   - Surprisingly, while JavaScript remains a dominant force, emerging languages like Rust and Go are gaining traction among Berlin developers. This shift suggests a growing interest in systems programming and performance-oriented development.
-   - Python, known for its versatility in data science and web development, also retains a strong presence, indicating a balanced ecosystem where both new and established languages thrive.
-
-2. **Engagement and Community Dynamics**:
-   - Users with detailed profiles and active repositories tend to attract more followers. This highlights the importance of not just coding skills but also the ability to showcase one’s work effectively. 
-   - Collaboration through open-source projects significantly boosts engagement. Developers who contribute to popular projects or start their own often see exponential follower growth.
-
-3. **Profile Optimization**:
-   - Profiles that feature a clear focus—be it front-end development, machine learning, or DevOps—draw more followers than those that appear too generalized. Specialization appears to be key in standing out in the competitive landscape.
-
-4. **Geographic Influence**:
-   - Berlin's unique cultural and professional ecosystem fosters a collaborative environment. Many developers actively participate in meetups, hackathons, and workshops, translating this community spirit into higher engagement on GitHub.
-
-### Practical Insights for Developers
-
-To enhance your GitHub presence and follower count, consider the following strategies:
-
-- **Curate Your Profile**: Ensure your GitHub profile is complete and highlights your skills, interests, and projects. Use a professional photo, write a compelling bio, and link to relevant external profiles (like LinkedIn).
+- **users.csv**: Contains user data for GitHub users in Berlin with over 200 followers.
+- **repositories.csv**: Lists public repositories for each user, detailing key metrics.
   
-- **Focus on Trending Technologies**: Stay updated on programming language trends and explore emerging technologies. Engaging with new tools can position you as a thought leader in your niche.
+### Findings
+1. **Top 5 Users by Followers**: 
+   
+2. **Earliest Registered Users**: 
+   
+3. **Most Popular Licenses**: 
 
-- **Engage with the Community**: Don’t just post your work—interact! Contribute to other projects, provide feedback, and participate in discussions. This not only builds connections but also showcases your expertise.
+4. **Majority Company**: 
+   
+5. **Most Popular Language**: 
+   
+6. **Second Most Popular Language (after 2020)**: 
+   
+7. **Language with Highest Average Stars**: 
+   
+8. **Top 5 by Leader Strength**: 
+   
+9. **Correlation Between Followers and Repos**: 
+   
+10. **Regression Slope (Followers on Repos)**: 
+    
+11. **Correlation Between Projects and Wiki Enabled**: 
+    
+12. **Average Following Difference (Hireable)**: 
+    
+13. **Regression Slope (Followers on Bio Word Count)**: 
+    
+14. **Top 5 Weekend Repository Creators**: 
+    
+15. **Email Share Difference for Hireable Users**: 
+    
+16. **Most Common Surname**: 
 
-- **Document Your Projects**: Invest time in writing clear, detailed README files for your repositories. Good documentation can attract users and collaborators, making your work more accessible.
-
-### Conclusion
-
-The GitHub landscape in Berlin reveals a dynamic and evolving community where technology trends shape user engagement. By understanding and adapting to these patterns, developers can enhance their presence on the platform, connect with peers, and ultimately grow their follower base. Dive into the attached analysis for more detailed insights and start optimizing your GitHub journey today!
-
-### A Heartfelt Thanks
-
-Thank you for taking the time to explore these findings! Your curiosity and commitment to learning are what drive innovation in our tech community. Happy coding, and may your GitHub journey be as enriching as the Berlin tech scene itself ;)
+###A Heartfelt Thanks
+Thank you for taking the time to explore these findings! Your curiosity and commitment to learning are what drive innovation in our tech community. Happy coding, and may your GitHub journey be as enriching as the Berlin tech scene itself!
